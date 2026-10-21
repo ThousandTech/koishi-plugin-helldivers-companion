@@ -1,0 +1,1 @@
+{"root":["./src/browser.ts","./src/cli.ts","./src/glossary.ts","./src/index.ts","./src/official-api.ts","./src/official-markup.ts","./src/planet-resolver.ts","./src/screenshot.ts","./src/subscription.ts","./src/targets.ts","./src/translation-cache.ts","./src/translator.ts","./src/types.ts"],"version":"5.9.3"}

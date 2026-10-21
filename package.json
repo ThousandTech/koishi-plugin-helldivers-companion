@@ -1,0 +1,35 @@
+{
+  "name": "koishi-plugin-helldivers-companion",
+  "version": "0.1.0",
+  "description": "Helldivers Companion screenshot and translation plugin for Koishi",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "bin",
+    "assets",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "hd2": "npm run build --silent && node lib/cli.js"
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.11"
+  },
+  "dependencies": {
+    "koishi-plugin-puppeteer": "^3.9.0",
+    "puppeteer-core": "^22.6.1",
+    "puppeteer-finder": "^1.1.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "happy-dom": "^21.0.3",
+    "koishi": "^4.17.11",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
